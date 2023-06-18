@@ -1,0 +1,147 @@
+body{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+
+nav ul li{
+  display: inline-block;
+  line-height: 30px;
+  margin:0 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  text-decoration-color: black;
+  text-decoration: none;
+
+}
+
+nav img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  width: 130px;
+  height: 50px;
+  box-shadow: none;
+  border-color:#fff;
+}
+
+nav ul li a{
+  color:black;
+  text-decoration: none;
+}
+
+.para1 img{
+padding-left: 80px;
+margin-top: 120px;
+transition-delay: 5s;
+}
+h1{
+  float: right;
+  margin-right: 140px;
+  margin-top: 200px;
+  font-style:"dansing-script";
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.txt h2{
+  text-align: center;
+
+}
+
+.txt{
+padding-top: 100px;
+font-style: italic;
+font-weight: lighter;
+font-size: 30px;
+}
+
+.para2 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.para2 button{
+   padding-left: 100px;
+   padding: 10px 24px;
+   text-align: center;
+   font-size: 9px;
+    margin-left: -200px;
+    background-color:#000000;
+    color: #fff;
+    font-style: "dansing-script";
+    font-weight: lighter;
+
+}
+
+.bg img{
+  padding-top: 50px;
+}
+ .para1 h1{
+   display: inline-block;
+   font-size: 15px;
+
+
+ }
+ .para3 img{
+   height: 300px;
+   width: 300px;
+   padding-left: 60px;
+   padding-top: 80px;
+ }
+ .para3 h3{
+   font-size: 20px;
+   font-weight: lighter;
+   padding-top: 50px;
+   padding-left:20px;
+   display: inline-block;}
+ .cant a{
+   color: black;
+   display: inline-block;
+   padding-left: 130px;
+   padding-right: 120px;
+ font-weight: lighter;
+ text-decoration: none;
+}
+.money h3{
+  color: red;
+  display: inline-block;
+  padding-left: 160px;
+  padding-right: 180px;
+  font-weight: lighter;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+ .para4 img{
+   height: 300px;
+   width: 300px;
+   padding-left: 60px;
+   padding-top: 80px;
+ }
+ .cants a{
+   color: black;
+   display: inline-block;
+   padding-left: 170px;
+   padding-bottom: 50px;
+   padding-right: 240px;
+   text-decoration: none;
+ }
+ .fi img{
+   align-content:center;
+   padding-left: 250px;
+ }
+.footer img{
+   height: 200px;
+   width: 1200px;
+   padding-left: 160px;
+ }
+
+ }
+
+}
