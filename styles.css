@@ -1,159 +1,135 @@
-body{
-  padding:0;
-  margin:0;
+body {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-
-
-nav ul li{
-  display: inline-block;
-  line-height: 30px;
-  margin:0 50px;
-  margin-left: 50px;
-  margin-top: 10px;
-  text-decoration-color: black;
-  text-decoration: none;
-
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-nav img{
+nav ul li {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+nav img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 2px;
   width: 130px;
   height: 50px;
   box-shadow: none;
-  border-color:#fff;
+  border-color: #fff;
+  margin-right: 50px;
+  padding-left: 70px;
 }
 
-nav ul li a{
-  color:black;
+nav ul li a {
+  color: black;
   text-decoration: none;
 }
 
-.para1 img{
-padding-left: 80px;
-margin-top: 120px;
-transition-delay: 5s;
+.para1 img {
+  padding-left: 20px;
+  margin-top: 120px;
+  transition-delay: 5s;
+  padding-bottom: 10px;
 }
-h1{
-  float: right;
-  margin-right: 140px;
-  margin-top: 200px;
-  font-style:"dansing-script";
-  font-size: 20px;
+
+.txt {
+  margin-top: 20px;
+  font-style: italic;
   font-weight: lighter;
-}
-
-.txt h2{
+  font-size: 40px;
   text-align: center;
-
 }
 
-.txt{
-padding-top: 100px;
-font-style: italic;
-font-weight: lighter;
-font-size: 30px;
-}
-
-.para2 img{
+.para2 img {
   height: 200px;
   width: 200px;
-  padding-left: 100px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-
-.para2 button{
-   padding-left: 100px;
-   padding: 10px 24px;
-   text-align: center;
-   font-size: 9px;
-    margin-left: -200px;
-    background-color:#000000;
-    color: #fff;
-    font-style: "dansing-script";
-    font-weight: lighter;
+  margin-left: 50px;
+  padding-left: 20px;;
 
 }
 
-.bg img{
+.para2 button {
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 9px;
+  margin-left: -160px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+
+.bg img {
   padding-top: 50px;
 }
- .para1 h1{
-   display: inline-block;
-   font-size: 15px;
 
-
- }
- .para3 img{
-   height: 300px;
-   width: 300px;
-   padding-left: 60px;
-   padding-top: 80px;
- }
- .para3 h3{
-   font-size: 20px;
-   font-weight: lighter;
-   padding-top: 50px;
-   padding-left:20px;
-   display: inline-block;}
- .cant a{
-   color: black;
-   display: inline-block;
-   padding-left: 130px;
-   padding-right: 120px;
- font-weight: lighter;
- text-decoration: none;
+.para3 img {
+  height: 300px;
+  width: 300px;
+  padding-top: 5px;
+  margin-left: 10px;
 }
-.money h3{
-  color: red;
-  display: inline-block;
-  padding-left: 160px;
-  padding-right: 180px;
+
+.para3 h3 {
+  font-size: 20px;
   font-weight: lighter;
-  padding-top: 0px;
-  margin-top: 0px;
-
-}
- .para4 img{
-   height: 300px;
-   width: 300px;
-   padding-left: 60px;
-   padding-top: 80px;
- }
- .cants a{
-   color: black;
-   display: inline-block;
-   padding-left: 170px;
-   padding-bottom: 50px;
-   padding-right: 240px;
-   text-decoration: none;
- }
- .fi img{
-   align-content:center;
-   padding-left: 250px;
- }
-.footer img{
-   height: 200px;
-   width: 1200px;
-   padding-left: 160px;
- }
-
- }
-
-}
-body {  
-padding: 0;
-margin: 0;
+  padding-top: 50px;
+  margin-left: 30px;
 }
 
-div{
-width: 100%;
-height: 100%;
-min-width: 1000px;
-min-height: 1000px;
-margin: 0 auto;
+.cant a {
+  color: black;
+  margin: auto;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-left: 90px;
+  
+  
+}
+
+.money h3 {
+  color: red;
+  padding: 0 160px 0 0;
+  font-weight: lighter;
+  margin-left: 100px;
+  float: left;
+  padding-left: 25px;
+}
+
+.para4 img {
+  height: 300px;
+  width: 300px;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+.cants a {
+  color: black;
+  margin: auto;
+  margin-left: 90px;
+  text-decoration: none;
+}
+
+.fi img {
+  display: block;
+  margin-left: 50px;
+  padding-left: 100px;
+}
+
+.footer img {
+  height: 200px;
+  width: 100%;
+  margin-left: 5px;
+  display: block;
 }
